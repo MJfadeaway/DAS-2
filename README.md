@@ -2,7 +2,7 @@
  Deep Adaptive Sampling for Surrogate Modeling Without Labeled Data 
 
 
-# The following generalization work of DAS for surrogate modeling of parametric differential equations
+# Gneralizing DAS for surrogate modeling of parametric differential equations
 [Deep adaptive sampling for surrogate modeling without labeled data](https://arxiv.org/abs/2402.11283)
 
 

@@ -1,10 +1,5 @@
-# DAS-2
- Deep Adaptive Sampling for Surrogate Modeling Without Labeled Data 
-
-
-# Generalizing DAS for surrogate modeling of parametric differential equations
-[Deep adaptive sampling for surrogate modeling without labeled data](https://arxiv.org/abs/2402.11283)
-
+# DAS-2: Generalizing DAS for surrogate modeling of parametric differential equations
+ Official implementation for the paper [Deep adaptive sampling for surrogate modeling without labeled data](https://arxiv.org/abs/2402.11283)
 
 We propose a deep adaptive sampling approach for surrogate modeling of parametric differential equations without labeled data, i.e., DAS for surrogates ($\text{DAS}^2$).
 We demonstrate the efficiency of the proposed method with a series of numerical experiments, including the operator learning problem, the parametric optimal control problem,
@@ -13,8 +8,8 @@ and the lid-driven 2D cavity flow problem with a continuous range of Reynolds nu
 
 # Requirements
 
-PyTorch
-Numpy
+PyTorch, 
+Numpy, 
 Scipy
 
 

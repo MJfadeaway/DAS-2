@@ -17,6 +17,7 @@ Scipy
 # Motivation
 Surrogate modeling is of great practical significance for parametric differential equation systems. In contrast to classical numerical methods, using physics-informed deep learning-based methods to construct simulators for such systems is a promising direction due to its potential to handle high dimensionality, which requires minimizing a loss over a training set of random samples. However, the random samples introduce statistical errors, which may become the dominant errors for the approximation of low-regularity and high-dimensional problems.
 
+Choosing a proper set of collocation points is crucial for solving low-regularity problems. Adaptive sampling is needed.
 
 
 # Train

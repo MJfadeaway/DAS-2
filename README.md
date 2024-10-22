@@ -10,7 +10,8 @@ and the lid-driven 2D cavity flow problem with a continuous range of Reynolds nu
 
 PyTorch, 
 Numpy, 
-Scipy
+Scipy,
+pyDOE
 
 
 

@@ -24,11 +24,19 @@ Choosing a proper set of collocation points is crucial for solving low-regularit
 # Train
 Operator learning
 ```bash
+cd Operator_learning
 python das_oplearning.py
 ```
 
 Surrogate modeling for parametric optimal control
 ```bash
+cd Optimal_control
+python das_train.py
+```
+
+Surrogate modeling for the lid-driven cavity flow
+```bash
+cd Lid-driven_cavity_flow
 python das_train.py
 ```
 

@@ -3,7 +3,7 @@
 
 We propose a deep adaptive sampling approach for surrogate modeling of parametric differential equations without labeled data, i.e., DAS for surrogates ($\text{DAS}^2$).
 We demonstrate the efficiency of the proposed method with a series of numerical experiments, including the operator learning problem, the parametric optimal control problem,
-and the lid-driven 2D cavity flow problem with a continuous range of Reynolds numbers from 100 to 3200 (will be released soon). 
+and the lid-driven 2D cavity flow problem with a continuous range of Reynolds numbers from 100 to 3200 (see the paper). 
 
 
 # Requirements

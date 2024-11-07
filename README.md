@@ -40,6 +40,8 @@ cd Lid-driven_cavity_flow
 python das_train.py
 ```
 
+All-at-once solutions of parametric lid-driven cavity flow problems
+
 <img align="middle" src="./assets/ex2_all_at_once_ultra.png" alt="ldc_flow_sol" />
 
 <img align="middle" src="./assets/ex2_ghia_all_ultra.png" alt="ldc_flow_sol" />

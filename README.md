@@ -3,14 +3,15 @@
 
 We propose a deep adaptive sampling approach for surrogate modeling of parametric differential equations without labeled data, i.e., DAS for surrogates ($\text{DAS}^2$).
 We demonstrate the efficiency of the proposed method with a series of numerical experiments, including the operator learning problem, the parametric optimal control problem,
-and the lid-driven 2D cavity flow problem with a continuous range of Reynolds numbers from 100 to 3200 (will be released soon). 
+and the lid-driven 2D cavity flow problem with a continuous range of Reynolds numbers from 100 to 3200 (see the paper). 
 
 
 # Requirements
 
 PyTorch, 
 Numpy, 
-Scipy
+Scipy,
+pyDOE
 
 
 
@@ -23,11 +24,19 @@ Choosing a proper set of collocation points is crucial for solving low-regularit
 # Train
 Operator learning
 ```bash
+cd Operator_learning
 python das_oplearning.py
 ```
 
 Surrogate modeling for parametric optimal control
 ```bash
+cd Optimal_control
+python das_train.py
+```
+
+Surrogate modeling for the lid-driven cavity flow
+```bash
+cd Lid-driven_cavity_flow
 python das_train.py
 ```
 

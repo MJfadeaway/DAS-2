@@ -49,12 +49,23 @@ All-at-once solutions of parametric lid-driven cavity flow problems
 
 
 # Citation
-If you find this repo useful for your research, please consider to cite our paper (arXiv, 2024)
+If you find this repo useful for your research, please consider to cite our paper on arXiv or Journal of Scientific Computing
 ```
 @article{wang2024deep,
   title={Deep adaptive sampling for surrogate modeling without labeled data},
   author={Wang, Xili and Tang, Kejun and Zhai, Jiayu and Wan, Xiaoliang and Yang, Chao},
   journal={arXiv preprint arXiv:2402.11283},
   year={2024}
+}
+
+@article{wang2024das2,
+	title={Deep {A}daptive {S}ampling for {S}urrogate {M}odeling {W}ithout {L}abeled {D}ata},
+	author={Wang, Xili and Tang, Kejun and Zhai, Jiayu and Wan, Xiaoliang and Yang, Chao},
+	journal={Journal of Scientific Computing},
+	volume={101},
+	number={3},
+	pages={77},
+	year={2024},
+	publisher={Springer}
 }
 ```

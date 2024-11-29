@@ -22,6 +22,8 @@ Choosing a proper set of collocation points is crucial for solving low-regularit
 
 
 # Train
+See the paper for the details of settings. Here is a demo with a specific setting for example. 
+
 Operator learning
 ```bash
 cd Operator_learning

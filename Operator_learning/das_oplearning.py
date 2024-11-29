@@ -182,7 +182,7 @@ def main():
     das_or_rar = 'das'
     qusi = 0
     das_mode = 'add'
-    n_train = 45000 # The number of samples in the initial training set
+    n_train = 20000 # The number of samples in the initial training set
     rar_add = 7500
     n_test = 20000
     n_epochs =  3000 
